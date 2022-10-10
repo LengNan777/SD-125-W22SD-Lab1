@@ -99,7 +99,7 @@ public class VehicleTracker
         this.VehicleList[slotNumber].Pass = false;
         this.VehicleList[slotNumber] = null;
         this.SlotsAvailable++;
-        return true;
+        return true; 
     }
 
     public List<Vehicle> ParkedPassholders()
