@@ -11,7 +11,7 @@
         Console.WriteLine(vehicleTracker.PassholderPercentage());
         vehicleTracker.RemoveVehicle("license 1");
         Console.WriteLine(vehicleTracker.PassholderPercentage());
-        vehicleTracker.RemoveVehicle(2);
+        vehicleTracker.RemoveVehicle(2); 
         Console.WriteLine(vehicleTracker.PassholderPercentage());
     }
 }
