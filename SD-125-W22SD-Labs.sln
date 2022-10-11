@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD-125-W22SD-Labs", "SD-125
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectForLab", "..\TestProjectForLab\TestProjectForLab.csproj", "{3C61CCCA-9B5F-4CC6-9455-1F6CAD518B0B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{F45255DE-8F5A-413B-95D0-1ED1BC422C05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B813EA5E-6E89-4551-BD1C-C2FCA8A709DF} = {F45255DE-8F5A-413B-95D0-1ED1BC422C05}
+		{3C61CCCA-9B5F-4CC6-9455-1F6CAD518B0B} = {F45255DE-8F5A-413B-95D0-1ED1BC422C05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC23186C-A98A-4B96-B2FC-35F17BCE297A}
